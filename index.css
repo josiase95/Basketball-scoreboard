@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3 {
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    height: 100vh;
+}
+
+.score {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.point {
+    background-color: black; 
+    height: 120px;
+    width: 155px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #F94F6D; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.pointincrement {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+
+}
+
+.homepoint1, .homepoint2, .homepoint3, .guestpoint1, .guestpoint2, .guestpoint3 {
+    border: #9AABD8 solid 1px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: none;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    cursor: pointer;
+}
+
+
